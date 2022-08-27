@@ -1,6 +1,7 @@
 import axios from "axios";
 import Wilder from "../components/Wilder";
 import { useEffect, useState } from "react";
+import AddWilder from "../components/AddWilder";
 
 const Home = () => {
   const [wilders, setWilders] = useState([]);
@@ -22,6 +23,7 @@ const Home = () => {
         </div>
       </header>
       <main className="container">
+        <AddWilder />
         <h2>Wilders</h2>
         <section className="card-row">
           {wilders.map((wilder) => (
