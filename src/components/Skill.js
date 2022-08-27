@@ -1,8 +1,8 @@
-const Skill = () => {
+const Skill = ({ title, votes }) => {
   return (
     <li>
-      CSS
-      <span className="votes">3</span>
+      {title}
+      <span className="votes">{votes}</span>
     </li>
   );
 };
