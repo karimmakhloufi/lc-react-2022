@@ -2,11 +2,11 @@ import Image from "next/image";
 import blank_profile from "../../public/profile.png";
 import Skill from "./Skill";
 
-const Wilder = () => {
+const Wilder = ({ name }) => {
   return (
     <article className="card">
       <Image src={blank_profile} alt="Jane Doe Profile" />
-      <h3>Jane Doe</h3>
+      <h3>{name}</h3>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim

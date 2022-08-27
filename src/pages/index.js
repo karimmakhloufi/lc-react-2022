@@ -11,8 +11,8 @@ const Home = () => {
       <main className="container">
         <h2>Wilders</h2>
         <section className="card-row">
-          <Wilder />
-          <Wilder />
+          <Wilder name={"Kool Shen"} />
+          <Wilder name={"JoeyStarr"} />
           <Wilder />
           <Wilder />
           <Wilder />
